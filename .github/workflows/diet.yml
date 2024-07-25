@@ -22,6 +22,7 @@ jobs:
       - name: Update README
         run: node diet.js ${{ secrets.ZOTERO_API_KEY }} ${{ secrets.ZOTERO_USER_ID }}
       - name: Commit changes
+        continue-on-error: true
         run: |
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
