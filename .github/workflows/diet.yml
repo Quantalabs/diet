@@ -1,7 +1,7 @@
 # This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
 # For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
 
-name: Node.js Package
+name: Update README
 
 on:
   schedule:
@@ -19,3 +19,6 @@ jobs:
           node-version: 16
       - run: npm install @citation-js/core @citation-js/plugin-doi @citation-js/plugin-csl zotero-api-client
       - run: node diet.js ${{ secrets.ZOTERO_API_KEY }} ${{ secrets.ZOTERO_USER_ID }}
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+            commit_message: Update README with diet
