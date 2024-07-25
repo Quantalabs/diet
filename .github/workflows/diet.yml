@@ -17,8 +17,14 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm install @citation-js/core @citation-js/plugin-doi @citation-js/plugin-csl zotero-api-client
-      - run: node diet.js ${{ secrets.ZOTERO_API_KEY }} ${{ secrets.ZOTERO_USER_ID }}
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-            commit_message: Update README with diet
+      - name: Install Deps
+        run: npm install @citation-js/core @citation-js/plugin-doi @citation-js/plugin-csl zotero-api-client
+      - name: Update README
+        run: node diet.js ${{ secrets.ZOTERO_API_KEY }} ${{ secrets.ZOTERO_USER_ID }}
+      - name: Commit changes
+        run: |
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "Update README"
+            git push
