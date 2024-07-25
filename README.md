@@ -1,9 +1,9 @@
 # diet
 
-A script that uses the Zotero API to list the research papers you've consumed.
-
+A zotero plugin to tell people what (research papers) you've consumed.
 
 ### My Diet 🍔
+
 
 - Krenn, M., Ai, Q., Barthel, S., Carson, N., Frei, A., Frey, N. C., Friederich, P., Gaudin, T., Gayle, A. A., Jablonka, K. M., Lameiro, R. F., Lemm, D., Lo, A., Moosavi, S. M., Nápoles-Duarte, J. M., Nigam, A., Pollice, R., Rajan, K., Schatzschneider, U., … Aspuru-Guzik, A. (2022). SELFIES and the future of molecular string representations. Patterns, 3(10), 100588. https://doi.org/10.1016/j.patter.2022.100588
 
@@ -11,3 +11,17 @@ A script that uses the Zotero API to list the research papers you've consumed.
 
 - Cruz-Monteagudo, M., Medina-Franco, J. L., Pérez-Castillo, Y., Nicolotti, O., Cordeiro, M. N. D. S., & Borges, F. (2014). Activity cliffs in drug discovery: Dr Jekyll or Mr Hyde? Drug Discovery Today, 19(8), 1069–1080. https://doi.org/10.1016/j.drudis.2014.02.003
 
+
+### Usage Instructions
+
+Install:
+```
+npm install @citation-js/core @citation-js/plugin-doi @citation-js/plugin-csl zotero-api-client
+```
+
+Create `README-temp.md` in the same directory as `README.md` and add `%DIET` where you want your diet to appear.
+
+Run:
+```
+node diet.js ZOTERO_API_KEY ZOTERO_USER_ID
+```
