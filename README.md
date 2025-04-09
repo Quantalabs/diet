@@ -5,11 +5,15 @@ A zotero plugin to tell people what (research papers) you've consumed.
 ### My Diet 🍔
 
 
-- Krenn, M., Ai, Q., Barthel, S., Carson, N., Frei, A., Frey, N. C., Friederich, P., Gaudin, T., Gayle, A. A., Jablonka, K. M., Lameiro, R. F., Lemm, D., Lo, A., Moosavi, S. M., Nápoles-Duarte, J. M., Nigam, A., Pollice, R., Rajan, K., Schatzschneider, U., … Aspuru-Guzik, A. (2022). SELFIES and the future of molecular string representations. Patterns, 3(10), 100588. https://doi.org/10.1016/j.patter.2022.100588
+- Zhou, J., & Sander, J. (2003). Data Bubbles for Non-Vector Data. In Proceedings 2003 VLDB Conference (pp. 452–463). Elsevier. https://doi.org/10.1016/b978-012722442-8/50047-1
 
-- Kapur, S., Jenner, E., & Russell, S. (2024). Diffusion On Syntax Trees For Program Synthesis (Version 1). arXiv. https://doi.org/10.48550/ARXIV.2405.20519
+- Bhola, I. (2023). Dialectal Variation and Mutual Intelligibility of Hindi in Delhi. International Journal of Languages and Culture, 3(2), 55–64. https://doi.org/10.51483/ijlc.3.2.2023.55-64
 
-- Cruz-Monteagudo, M., Medina-Franco, J. L., Pérez-Castillo, Y., Nicolotti, O., Cordeiro, M. N. D. S., & Borges, F. (2014). Activity cliffs in drug discovery: Dr Jekyll or Mr Hyde? Drug Discovery Today, 19(8), 1069–1080. https://doi.org/10.1016/j.drudis.2014.02.003
+- Díaz, M., & Switkes, J. (2021). Speaking out: A mathematical model of language preservation. Heliyon, 7(5), e06975. https://doi.org/10.1016/j.heliyon.2021.e06975
+
+- Abrams, D. M., & Strogatz, S. H. (2003). Modelling the dynamics of language death. Nature, 424(6951), 900–900. https://doi.org/10.1038/424900a
+
+- Satyendra, R. (2004). An Informal Introduction to Some Formal Concepts from Lewin’s Transformational Theory. Journal of Music Theory, 48(1), 99–141. https://doi.org/10.1215/00222909-48-1-99
 
 
 ### Usage Instructions
